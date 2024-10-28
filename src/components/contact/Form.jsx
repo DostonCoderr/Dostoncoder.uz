@@ -48,7 +48,7 @@ export default function Form() {
         {
           publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
           limitRate: {
-            throttle: 50, // you can not send more then 1 email per 5 seconds
+            throttle: 10, // you can not send more then 1 email per 5 seconds
           },
         }
       )
@@ -75,7 +75,7 @@ export default function Form() {
 
   const onSubmit = (data) => {
     const templateParams = {
-      to_name: "CodeBucks",
+      to_name: "Dostoncoder",
       from_name: data.name,
       reply_to: data.email,
       message: data.message,
