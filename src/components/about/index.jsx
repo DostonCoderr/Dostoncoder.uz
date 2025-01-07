@@ -26,15 +26,17 @@ const AboutDetails = () => {
             spells and technologies to shape the future of the web.
           </p>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-          Mening veb-ishlab chiqishdagi sayohatim bir qator mistik narsalar bilan taminlangan
-             vositalari va tillar, JavaScript bilan mening yadrosini quyma
-             sehrlar. Men React.js va Next.js kabi ramkalardan foydalanaman
-             aniqlik, sohalarni boglaydigan uzluksiz portallar (veb-saytlar) yaratish
-             (foydalanuvchilar) raqamli olamda. Qadimgi sanat
-             Jamstack menga tez, xavfsiz va dinamik tajribalarni yaratishga imkon beradi,
-             Shu bilan birga, mening dizayn mahoratim har bir ijodning nafaqat funktsional ekanligini taminlaydi
-             lekin vizual tarzda jozibali. Menga qoshiling, chunki men yangi narsalarni kashf qilishda davom etaman
-             Internet kelajagini shakllantirish uchun sehr va texnologiyalar.
+            Mening veb-ishlab chiqishdagi sayohatim bir qator mistik narsalar
+            bilan taminlangan vositalari va tillar, JavaScript bilan mening
+            yadrosini quyma sehrlar. Men React.js va Next.js kabi ramkalardan
+            foydalanaman aniqlik, sohalarni boglaydigan uzluksiz portallar
+            (veb-saytlar) yaratish (foydalanuvchilar) raqamli olamda. Qadimgi
+            sanat Jamstack menga tez, xavfsiz va dinamik tajribalarni yaratishga
+            imkon beradi, Shu bilan birga, mening dizayn mahoratim har bir
+            ijodning nafaqat funktsional ekanligini taminlaydi lekin vizual
+            tarzda jozibali. Menga qoshiling, chunki men yangi narsalarni kashf
+            qilishda davom etaman Internet kelajagini shakllantirish uchun sehr
+            va texnologiyalar.
           </p>
         </ItemLayout>
 
@@ -67,30 +69,31 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
-          <img className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api?username=DostonCoderr&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
-            alt="DostonCoderr"
-            loading="lazy" />
-        </ItemLayout>
-
-        <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=bootstrap,linkedin,ai,cloudflare,css,d3,docker,figma,firebase,git,github,html,js,linux,mongodb,netlify,nextjs,nodejs,npm,react,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="Dostoncoder"
+            src="https://github-readme-stats.vercel.app/api?username=DostonCoderr&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+            alt="DostonCoderr"
             loading="lazy"
           />
         </ItemLayout>
 
+        <ItemLayout className={"col-span-full"}>
+  <img
+    className="w-full h-auto"
+    src="https://skillicons.dev/icons?i=bootstrap,linkedin,ai,cloudflare,css,d3,docker,figma,firebase,git,github,html,js,linux,mongodb,netlify,nextjs,nodejs,npm,react,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn"
+    alt="Dostoncoder"
+    loading="lazy"
+  />
+</ItemLayout>
+
+
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-        <img src="https://github-readme-streak-stats.herokuapp.com?user=DostonCoderr&theme=dark&hide_border=true&exclude_days=Sun%2CMon%2CTue%2CWed%2CThu%2CFri%2CSat&card_width=500&card_height=203" alt="GitHub Streak" />
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-streak-stats.herokuapp.com?user=DostonCoderr&theme=dark&hide_border=true&ring=FEFE5B&currStreakLabel=FEFE5B&background=EB545400"
+            alt="GitHub Streak"
+          />
         </ItemLayout>
-
-      
-
-
-
-        
       </div>
     </section>
   );
