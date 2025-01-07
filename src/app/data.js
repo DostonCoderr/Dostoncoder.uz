@@ -94,6 +94,13 @@ export const projectsData = [
     date: "2024-09-27",
     demoLink: "https://4car.kz/",
   },
+  {
+    id: 12,
+    name: "Shuxrat-Mebel",
+    description: "Online Furniture Website",
+    date: "2024-10-5",
+    demoLink: "https://shuxrat-mebel.uz",
+  },
 ];
 
 export const BtnList = [
