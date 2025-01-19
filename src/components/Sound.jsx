@@ -127,7 +127,8 @@ const Sound = () => {
         tracks={[
           "/audio/Fe!n.mp3",
           "/audio/Nejno.mp3",
-          "/audio/birds39-forest-20772.mp3",
+          "/audio/Патрон.mp3",
+          "/audio/Колизей.mp3"
         ]}
       />
 
